@@ -11,10 +11,10 @@ k = getNumber("Enter known length of image in microns: ", 1016);
 threshold_min = getNumber("Enter min for threshold: ", 30);
 threshold_max = getNumber("Enter max for threshold: ", 255);
 
-x1 = getNumber("Enter x1: ", 0);
-y1 = getNumber("Enter y1: ", 0);
-x2 = getNumber("Enter x1: ", 1104);
-y2 = getNumber("Enter y1: ", 1104);
+x1 = getNumber("Enter x: ", 0);
+y1 = getNumber("Enter y: ", 0);
+x2 = getNumber("Enter w: ", 1104);
+y2 = getNumber("Enter h: ", 1104);
 
 function cropthreshold() {
 print(i);
